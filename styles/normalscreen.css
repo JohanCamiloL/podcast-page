@@ -19,6 +19,9 @@
     header div {
         text-align: right;
     }
+    #menu-image {
+        display: none;
+    }
     li a {
         font-family: 'IBM Plex Mono', sans-serif;
         font-size: 16px;
