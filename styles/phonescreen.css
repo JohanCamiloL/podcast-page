@@ -1,0 +1,181 @@
+@import "normalscreen.css";
+/* Importar el archivo de estilos para pantalla normal */
+
+/* Normalizar los estilos de los elementos */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+/* Estilos para pantallas de celular */
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: #FFFFFF;
+        position: relative;
+    }
+    header img {
+        margin: 5% 0% 5% 5%;
+    }
+    header i {
+        position: absolute;
+        right: 5%;
+        top: 20px;
+        font-size: 20px;
+    }
+    header i:hover {
+        display: none;
+    }
+    header div:hover nav {
+        display: block;
+    }
+    header nav {
+        display: none;
+        width: 100%;
+        top: 100%;
+        right: 50%;
+        padding: 10px 50px 10px 10px;
+        background-color: #0000EC;
+    }
+    header nav ul {
+        list-style-type: none;
+    }
+    header nav a {
+        text-decoration: none;
+        font-family: 'IBM Plex Mono', sans-serif;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    header i:hover header {
+        background-color: #0000A3;
+    }
+    h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        line-height: 42px;
+        letter-spacing: 0;
+        color: #060A24;
+        margin-left: 5%;
+        font-size: 36px;
+    }
+    p {
+        font-family: 'IBM Plex Mono', sans-serif;
+        margin: 0% 5% 10% 5%;
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+    h1 span {
+        text-decoration: line-through;
+    }
+    button {
+        width: 90%;
+        margin: 0% 5% 0.4% 5%;
+        font-size: 16px;
+        background-color: #00F3BB;
+        color: #060A24;
+        font-family: 'IBMPlexMono-Medium', sans-serif;
+        padding: 4% 0%;
+        line-height: 22px;
+        border-style: none;
+        letter-spacing: 0;
+    }
+    button:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+    .episodios h2 {
+        margin-left: 5%;
+        color: #FFFFFF;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: 42px;
+        position: absolute;
+        top: 50px;
+        transform: skewY(6deg);
+    }
+    .episodios {
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        position: relative;
+        margin-top: 15%;
+        padding-top: 30%;
+        padding-bottom: 30%;
+        transform: skewY(-6deg);
+    }
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 2%;
+        width: 90%;
+        transform: skewY(6deg);
+    }
+    .nosotros img {
+        width: 100%;
+        position: relative;
+        bottom: 100px;
+    }
+    h2 {
+        font-size: 36px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #060A24;
+        letter-spacing: 0px;
+        line-height: 42px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+    }
+    .guests {
+        width: 100%;
+    }
+    .margin-bottom-top {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .icon {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .icon-text {
+        font-family: 'IBMPlexSans-SemiBold';
+        font-size: 24px;
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    .entrevistas {
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        position: relative;
+        padding-bottom: 20%;
+        transform: skewY(-6deg);
+    }
+    .entrevistas h2 {
+        color: #FFFFFF;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: 42px;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20%;
+        transform: skewY(6deg);
+    }
+    .entrevistas button {
+        transform: skewY(6deg);
+    }
+    .centered-text {
+        text-align: center;
+    }
+    .nosotros {
+        padding-top: 10%;
+        position: relative;
+    }
+}
