@@ -79,7 +79,7 @@
         font-size: 16px;
         background-color: #00F3BB;
         color: #060A24;
-        font-family: 'IBMPlexMono-Medium', sans-serif;
+        font-family: 'IBM Plex Mono', sans-serif;
         padding: 4% 0%;
         line-height: 22px;
         border-style: none;
@@ -115,6 +115,9 @@
         margin-top: 2%;
         width: 90%;
         transform: skewY(6deg);
+    }
+    .nosotros {
+        margin-top: 10%;
     }
     .nosotros img {
         width: 100%;
@@ -181,8 +184,10 @@
         text-align: center;
     }
     .entrevistas {
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);        
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         transform: skewY(-6deg);
+        display: flex;
+        flex-direction: column;
         position: relative;
     }
     .entrevistas p {
@@ -204,11 +209,15 @@
         font-size: 16px;
         background-color: #00F3BB;
         color: #060A24;
-        font-family: 'IBMPlexMono-Medium', sans-serif;
+        font-family: 'IBM Plex Mono', sans-serif;
         padding: 4% 0%;
         line-height: 22px;
         border-style: none;
         letter-spacing: 0;
+    }
+    .entrevistas button:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF;
     }
     .entrevistas::after {
         background-image: inherit;
@@ -220,11 +229,25 @@
         top: 70%;
         z-index: -1;
     }
-    .centered-text {
-        text-align: center;
+    footer {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
     }
-    .nosotros {
-        padding-top: 10%;
-        position: relative;
+    footer p {
+        text-align: center;
+        font-family: 'IBM Plex Mono';
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+    footer div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer div i {
+        margin: 5% 5%;
     }
 }
