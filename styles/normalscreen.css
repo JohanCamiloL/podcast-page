@@ -9,15 +9,15 @@
         position: absolute;
         width: 2%;
     }
+    header div {
+        text-align: right;
+    }
     nav, ul, li {
         display: inline;
     }
     ul {
         display: inline-flex;
         justify-content: flex-end;
-    }
-    header div {
-        text-align: right;
     }
     #menu-image {
         display: none;
@@ -91,6 +91,7 @@
         position: relative;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         transform: skewY(-4deg);
+        z-index: -1;
     }
     .episodios p {
         padding: 7% 0% 0% 7%;
@@ -100,39 +101,6 @@
         color: #FFFFFF;
         letter-spacing: 0px;
         transform: skewY(4deg);
-    }
-    .nosotros {
-        display: flex;
-        position: relative;
-        bottom: 150px;
-    }
-    .nosotros img {
-        position: relative;
-        left: 10%;
-        width: 31.8%;
-    }
-    .nosotros div {
-        display: inline-flex;
-        flex-direction: column;
-        align-self: center;
-        margin-left: 20%;
-    }
-    #nosotros {
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 48px;
-        color: #060A24;
-        letter-spacing: 0px;
-        display: inline;
-        width: 100%;
-    }
-    .nosotros p {
-        margin-top: 5%;
-        font-family: 'IBM Plex Mono', sans-serif;
-        font-size: 16px;
-        color: #060A24;
-        letter-spacing: 0px;
-        line-height: 24px;
-        width: 70%;
     }
     .episodios-flex {
         transform: skewY(4deg);
@@ -145,6 +113,34 @@
         width: 45%;
         margin: 1%;
     }
+    .nosotros {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 8vw;
+    }
+    .nosotros img {
+        width: 28%;
+    }
+    .nosotros div {
+        width: 40%;
+    }
+    .nosotros div p:nth-child(1) {
+        font-family: 'IBM Plex Sans';
+        font-size: 48px;
+        color: #060A24;
+        letter-spacing: inherit;
+    }
+    .nosotros div p:nth-child(2) {
+        font-family: 'IBM Plex Mono';
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0px;
+        line-height: 24px;
+    }
+    .nosotros div p {}
     .invitados {
         display: flex;
         flex-direction: column;
@@ -196,7 +192,7 @@
         font-family: ' IBM Plex Sans';
         /* TODO No carga la fuente*/
         margin-top: 15%;
-        font-size: 100%;
+        font-size: 24px;
         text-align: center;
         justify-self: flex-start;
         padding: 0%;
@@ -243,9 +239,9 @@
         width: 100%;
         padding: 5%;
         bottom: 4vw;
-        z-index: -1;        
+        z-index: -1;
     }
-    footer {        
+    footer {
         display: flex;
         justify-content: space-between;
         padding: 2% 5%;
