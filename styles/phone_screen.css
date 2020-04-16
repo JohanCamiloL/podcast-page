@@ -1,3 +1,4 @@
+@import "variables.css";
 /* Estilos para pantallas de celular */
 
 @media only screen and (max-width: 600px) {
@@ -46,7 +47,7 @@
         font-family: 'IBM Plex Sans', sans-serif;
         line-height: 42px;
         letter-spacing: 0;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         margin-left: 5%;
         font-size: 36px;
     }
@@ -54,7 +55,7 @@
         font-family: 'IBM Plex Mono', sans-serif;
         margin: 0% 5% 10% 5%;
         font-size: 14px;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0;
         line-height: 22px;
     }
@@ -66,7 +67,7 @@
         margin: 0% 5% 0.4% 5%;
         font-size: 16px;
         background-color: #00F3BB;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         font-family: 'IBM Plex Mono', sans-serif;
         padding: 4% 0%;
         line-height: 22px;
@@ -116,7 +117,7 @@
     .nosotros div p:nth-child(1) {
         font-size: 36px;
         font-family: 'IBM Plex Sans', sans-serif;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0px;
         line-height: 42px;
         padding: 0% 5% 5% 5%;
@@ -124,7 +125,7 @@
     .nosotros div p:nth-child(2) {
         font-family: 'IBM Plex Mono';
         font-size: 14px;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0;
         line-height: 22px;
         padding: 0% 5%;
@@ -132,7 +133,7 @@
     .invitados p {
         font-size: 36px;
         font-family: 'IBM Plex Sans', sans-serif;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0px;
         line-height: 42px;
         padding: 10% 5%;
@@ -151,7 +152,7 @@
     .topicos p {
         font-size: 36px;
         font-family: 'IBM Plex Sans', sans-serif;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0px;
         line-height: 42px;
         padding: 10% 5%;
@@ -166,7 +167,7 @@
         text-align: center;
         font-family: 'IBM Plex Sans';
         font-size: 24px;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0;
         text-align: center;
     }
@@ -195,7 +196,7 @@
         margin: 10% 5% 0.4% 5%;
         font-size: 16px;
         background-color: #00F3BB;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         font-family: 'IBM Plex Mono', sans-serif;
         padding: 4% 0%;
         line-height: 22px;
@@ -225,7 +226,7 @@
         text-align: center;
         font-family: 'IBM Plex Mono';
         font-size: 14px;
-        color: #060A24;
+        color: var(--title-paragraph-color);
         letter-spacing: 0;
         line-height: 22px;
     }
