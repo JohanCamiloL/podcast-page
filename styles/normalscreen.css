@@ -140,7 +140,6 @@
         letter-spacing: 0px;
         line-height: 24px;
     }
-    .nosotros div p {}
     .invitados {
         display: flex;
         flex-direction: column;
@@ -181,7 +180,8 @@
     .topicos div {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .topicos div div {
         display: flex;
