@@ -83,7 +83,7 @@
         width: 20%;
     }
     .inicio button:hover {
-        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        background-image: var(--gradient-image);
         color: #FFFFFF;
     }
     .episodios {
@@ -231,7 +231,7 @@
         margin-bottom: 3.9%;
     }
     .entrevistas button:hover {
-        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        background-image: var(--gradient-image);
         color: #FFFFFF;
     }
     #no-skew {

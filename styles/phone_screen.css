@@ -43,7 +43,7 @@
     header i:hover header {
         background-color: #0000A3;
     }
-    div h1 {
+    section h1 {
         font-family: 'IBM Plex Sans', sans-serif;
         line-height: 42px;
         letter-spacing: 0;
@@ -59,7 +59,7 @@
         letter-spacing: 0;
         line-height: 22px;
     }
-    div h1 span {
+    section h1 span {
         text-decoration: line-through;
     }
     .inicio button {
@@ -75,7 +75,7 @@
         letter-spacing: 0;
     }
     .inicio button:hover {
-        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        background-image: var(--gradient-image);
         color: #FFFFFF;
     }
     .episodios p {
@@ -205,7 +205,7 @@
         z-index: 1;
     }
     .entrevistas button:hover {
-        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        background-image: var(--gradient-image);
         color: #FFFFFF;
     }
     .entrevistas::after {
