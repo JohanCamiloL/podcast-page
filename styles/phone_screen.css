@@ -1,15 +1,3 @@
-@import "normalscreen.css";
-/* Importar el archivo de estilos para pantalla normal */
-
-/* Normalizar los estilos de los elementos */
-
-* {
-    padding: 0%;
-    margin: 0%;
-    border: 0%;
-    box-sizing: border-box;
-}
-
 /* Estilos para pantallas de celular */
 
 @media only screen and (max-width: 600px) {
@@ -226,7 +214,7 @@
         height: 50%;
         transform: skewY(6deg);
         position: absolute;
-        top: 70%;        
+        top: 70%;
     }
     footer {
         margin-top: 20%;
