@@ -15,10 +15,22 @@
         top: 20px;
         font-size: 20px;
     }
-    header i:hover {
+    header input {
+        position: absolute;
+        top: 20px;
+        right: 5%;
         display: none;
     }
-    header div:hover nav {
+    #close-icon {
+        display: none;
+    }
+    header input:checked ~ #menu {
+        display: block;
+    }
+    header input:checked ~ label #menu-icon {
+        display: none;
+    }
+    header input:checked ~ label #close-icon {
         display: block;
     }
     header nav {
