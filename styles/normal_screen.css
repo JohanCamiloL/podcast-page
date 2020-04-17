@@ -3,15 +3,19 @@
 
 @media only screen and (min-width: 600px) {
     header {
-        position: relative;
-        padding: 2% 2%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 1%;
     }
     header img {
-        position: absolute;
-        width: 2%;
+        grid-column-start: 1;
+        width: 6%;
+        margin-left: 5%;
     }
     header div {
-        text-align: right;
+        grid-column-start: 2;
+        display: flex;
+        justify-content: flex-end;
     }
     nav, ul, li {
         display: inline;
@@ -20,7 +24,7 @@
         display: inline-flex;
         justify-content: flex-end;
     }
-    #menu-image {
+    #menu-icon, #close-icon, input {
         display: none;
     }
     li a {
@@ -89,7 +93,6 @@
     .episodios {
         margin-top: 5%;
         padding-bottom: 15%;
-        position: relative;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         transform: skewY(-4deg);
         z-index: -1;
@@ -199,17 +202,17 @@
         padding: 0%;
     }
     .entrevistas {
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);        
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
     }
     .entrevistas p {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 48px;
         color: #FFFFFF;
         letter-spacing: 0%;
-        text-align: center;        
-        padding-top: 5.4%;        
+        text-align: center;
+        padding-top: 5.4%;
     }
     .entrevistas button {
         background-color: #00F3BB;
@@ -221,7 +224,7 @@
         line-height: 24px;
         border-style: none;
         padding: 1% 4.1%;
-        width: 24%;        
+        width: 24%;
         align-self: center;
         margin-bottom: 5%;
     }
@@ -251,7 +254,9 @@
         width: 25%;
         justify-content: flex-end;
     }
-    footer div i {
+    footer div a {
+        text-decoration: none;
+        color: var(--title-paragraph-color);
         margin-right: 10%;
     }
 }
