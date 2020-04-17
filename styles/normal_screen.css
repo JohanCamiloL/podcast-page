@@ -129,13 +129,13 @@
         width: 40%;
     }
     .nosotros div p:nth-child(1) {
-        font-family: 'IBM Plex Sans';
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 48px;
         color: var(--title-paragraph-color);
         letter-spacing: inherit;
     }
     .nosotros div p:nth-child(2) {
-        font-family: 'IBM Plex Mono';
+        font-family: 'IBM Plex Mono', monospace;
         font-size: 16px;
         color: var(--title-paragraph-color);
         letter-spacing: 0px;
@@ -204,7 +204,7 @@
         flex-direction: column;        
     }
     .entrevistas p {
-        font-family: 'IBM Plex Sans';
+        font-family: 'IBM Plex Sans', sans-serif;
         font-size: 48px;
         color: #FFFFFF;
         letter-spacing: 0%;
