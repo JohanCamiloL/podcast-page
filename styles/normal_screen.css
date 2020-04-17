@@ -199,21 +199,17 @@
         padding: 0%;
     }
     .entrevistas {
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        transform: skewY(-4deg);
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);        
         display: flex;
-        flex-direction: column;
-        position: relative;
+        flex-direction: column;        
     }
     .entrevistas p {
         font-family: 'IBM Plex Sans';
         font-size: 48px;
         color: #FFFFFF;
         letter-spacing: 0%;
-        text-align: center;
-        transform: skewY(4deg);
-        padding-top: 5.4%;
-        padding-bottom: 0.9%;
+        text-align: center;        
+        padding-top: 5.4%;        
     }
     .entrevistas button {
         background-color: #00F3BB;
@@ -225,22 +221,21 @@
         line-height: 24px;
         border-style: none;
         padding: 1% 4.1%;
-        width: 24%;
-        transform: skewY(4deg);
+        width: 24%;        
         align-self: center;
-        margin-bottom: 3.9%;
+        margin-bottom: 5%;
     }
     .entrevistas button:hover {
         background-image: var(--gradient-image);
         color: #FFFFFF;
     }
-    #no-skew {
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        position: relative;
-        width: 100%;
-        padding: 5%;
-        bottom: 4vw;
-        z-index: -1;
+    .entrevistas::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-bottom: 140px solid transparent;
+        border-left: 98vw solid white;
     }
     footer {
         display: flex;
