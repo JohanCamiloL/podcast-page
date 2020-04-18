@@ -116,6 +116,9 @@
     .episodios-flex iframe {
         width: 45%;
         margin: 1%;
+        height: 232px;
+        border: none;
+        
     }
     .nosotros {
         display: flex;
